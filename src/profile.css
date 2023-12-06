@@ -1,0 +1,83 @@
+.prop {
+    padding-top: 7rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail{
+    height: 20px;
+    width: 20px;
+    padding-top: 1%;
+    padding-right: 1%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px; /* Optional: Add margin for spacing */
+}
+
+.detail-1 {
+    text-align: center;
+    justify-content: center;
+    color: #61dafb;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.detail-2 {
+    text-align: center;
+    justify-content: center;
+    color: #61dafb;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.option {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.opt {
+    color: #00647f;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 35rem;
+}
+
+.opt:hover{
+    color: #f0f0f0;
+    background: #00647f;
+}
+
+.socio{
+    width: 90%;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    justify-items: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #61dafb;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,31 @@
+.left-container {
+    display: flex;
+    width: 100%;
+    
+}
+
+.sm-profile{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.box{
+    padding-top: 2%;
+    padding-left: 30%;
+}
+
+.line{
+    display: flex;
+}
+
+.title{
+    color: #61dafb;
+    padding-right: 5%;
+    width: 70%;
+}
+
+.para{
+    width: 60%;
+}
