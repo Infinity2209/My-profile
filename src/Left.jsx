@@ -29,7 +29,7 @@ const LeftBanner = () => {
                 <li onClick={() => navigateTo('/skill')}>
                     <img src={skillIcon} alt="" className="icon" />
                 </li>
-                <li onClick={() => navigateTo('/extra-curricular')}>
+                <li onClick={() => navigateTo('/strength')}>
                     <img src={extraIcon} alt="" className="icon" />
                 </li>
                 <li onClick={() => navigateTo('/social')}>

@@ -3,6 +3,10 @@ import "./profile.css";
 import Mypic from "./Utils/My profile.jpeg";
 import { useNavigate } from "react-router-dom";
 import mail from "./Utils/mail.png";
+import linked from "./Utils/linkedin-96.png";
+import insta from "./Utils/instagram.png";
+import github from "./Utils/github.png";
+import x from "./Utils/twitter.png";
 
 const Main_profile = () => {
     const Navigate = useNavigate();
@@ -18,24 +22,27 @@ const Main_profile = () => {
                 </p>
                 <ul className="option">
                     <li className="opt" onClick={
-                        ()=>{
+                        () => {
                             Navigate("/personal")
                         }
-                }>Personal Details</li>
+                    }>Personal Details</li>
                     <li className="opt" onClick={
-                        ()=>{
+                        () => {
                             Navigate("/skill")
                         }
-                }>Skills And Experinces</li>
-                    <li className="opt">Strength And Extra-Curicular Activity</li>
+                    }>Skills And Experinces</li>
+                    <li className="opt" onClick={
+                        () => {
+                            Navigate("/strength")
+                        }
+                    }>Strength </li>
                     <li className="opt">Qualifications</li>
-                    <li className="opt">Social Profile</li>
                 </ul>
             </div>
             <div>
                 <div className="socio ">
                     <p>
-                        Hello and welcome to my digital paradise!<br/>I am Anant Nag, an experienced Full-Stack Developer and UI Designer who loves crafting immersive online experiences. My journey in technology has been an exciting odyssey marked by passion, perseverance and a relentless commitment to innovate. As you scroll through my profile you will see a tapestry of projects on my GitHub account, each one a labor of love and a testament to my skills and creativity. From dynamic web applications to beautiful UI designs, I have embraced a variety of challenges to push the boundaries of what is possible.
+                        Hello and welcome to my digital paradise!<br />I am Anant Nag, an experienced Full-Stack Developer and UI Designer who loves crafting immersive online experiences. My journey in technology has been an exciting odyssey marked by passion, perseverance and a relentless commitment to innovate. As you scroll through my profile you will see a tapestry of projects on my GitHub account, each one a labor of love and a testament to my skills and creativity. From dynamic web applications to beautiful UI designs, I have embraced a variety of challenges to push the boundaries of what is possible.
                     </p>
                     <p>
                         Feel free to explore the repository on my GitHub, where the code covers my technical prowess and skill development. I have had the opportunity to support projects that solve real world problems and enhance the user experience. Each legal process represents a learning opportunity, and each commit marks a step in my quest to keep getting better.
@@ -50,9 +57,30 @@ const Main_profile = () => {
                     </p>
                 </div>
             </div>
+            <h2 className='socia'> Social Profile</h2>
             <div className="contact">
-                <img src={mail} alt="Gmail" className='mail'/>
-                <p> anantanag91@gmail.com</p>
+                <ul>
+                    <li>
+                        <img src={mail} alt="Gmail" className='mail' />
+                        <p> anantanag91@gmail.com</p>
+                    </li>
+                    <li>
+                        <img src={linked} alt="linkedin" className='mail' />
+                        <a href="https://www.linkedin.com/in/ananta-nag-126053263/" className='link'> Ananta Nag </a>
+                    </li>
+                    <li>
+                        <img src={insta} alt="insta" className='mail' />
+                        <a href="https://instagram.com/_ananta_2209?igshid=NGVhN2U2NjQ0Yg==" className="link"> INFINITY </a>
+                    </li>
+                    <li>
+                        <img src={github} alt="github" className='mail' />
+                        <a href="https://github.com/Infinity2209" className="link"> INFINITY </a>
+                    </li>
+                    <li>
+                        <img src={x} alt="x" className='mail' />
+                        <a href=" https://x.com/AnantaNag917487?t=pOY4we4UsKSck7sLf3AWkw&s=08" className="link"> Ananta Nag </a>
+                    </li>
+                </ul>
             </div>
         </div>
     );

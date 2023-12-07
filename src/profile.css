@@ -7,9 +7,9 @@
     align-items: center;
 }
 
-.mail{
-    height: 20px;
-    width: 20px;
+.mail {
+    height: 30px;
+    width: 30px;
     padding-top: 1%;
     padding-right: 1%;
 }
@@ -19,7 +19,8 @@
     width: 300px;
     height: 300px;
     object-fit: cover;
-    margin-bottom: 20px; /* Optional: Add margin for spacing */
+    margin-bottom: 20px;
+    /* Optional: Add margin for spacing */
 }
 
 .detail-1 {
@@ -58,12 +59,12 @@
     width: 35rem;
 }
 
-.opt:hover{
+.opt:hover {
     color: #f0f0f0;
     background: #00647f;
 }
 
-.socio{
+.socio {
     width: 90%;
     font-size: 18px;
     padding-left: 5%;
@@ -73,11 +74,29 @@
     line-height: 1.5;
 }
 
-.contact{
+.contact {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    flex-direction: column;
     color: #61dafb;
     font-size: 15px;
-    margin-bottom: 2rem;
+    margin: 2% 15%;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+    display: flex;
+}
+
+.link {
+    color: #61dafb;
+    text-decoration: none;
+    padding-top: 1.5%;
+}
+
+.socia {
+    color: #61dafb;
+    margin: 0 10%;
 }

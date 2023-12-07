@@ -8,7 +8,7 @@
 }
 
 .coding {
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -21,14 +21,35 @@
     margin-top: 5%;
 }
 
+
+.sk2 {
+    list-style: none;
+}
+
+.name {
+    flex-direction: row;
+    align-items: center;
+    color: #61dafb;
+    text-align: left;
+    margin: 0 8%;
+}
+
+.desc {
+    margin: 0 8%;
+    text-align: left;
+    font-size: 20px;
+}
+
 .sk li {
     display: flex;
     margin: 0 10px;
     width: 20%;
     height: 70px;
+    align-items: center;
+    text-align: left;
 }
 
-.log{
+.log {
     padding-right: 15%;
     height: 45px;
     width: 45px;
