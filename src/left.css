@@ -1,12 +1,15 @@
 /* leftBanner.css */
 .left-banner {
     background-color: #61dafb;
-    padding: 20px;
+    padding-top: 50px;
     box-sizing: border-box;
     text-align: center;
+    position: fixed;
+    height: 100%;
+    width: 8%;
 }
 
-.profile-pic {
+.left-pic {
     border-radius: 50%;
     width: 100px;
     height: 100px;

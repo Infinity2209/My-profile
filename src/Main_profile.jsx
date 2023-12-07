@@ -22,7 +22,11 @@ const Main_profile = () => {
                             Navigate("/personal")
                         }
                 }>Personal Details</li>
-                    <li className="opt">Skills And Experinces</li>
+                    <li className="opt" onClick={
+                        ()=>{
+                            Navigate("/skill")
+                        }
+                }>Skills And Experinces</li>
                     <li className="opt">Strength And Extra-Curicular Activity</li>
                     <li className="opt">Qualifications</li>
                     <li className="opt">Social Profile</li>

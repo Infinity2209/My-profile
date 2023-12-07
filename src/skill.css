@@ -1,0 +1,35 @@
+.skill-container {
+    display: flex;
+    width: 100%;
+}
+
+.ex {
+    flex-grow: 1;
+}
+
+.coding {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.sk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 5%;
+}
+
+.sk li {
+    display: flex;
+    margin: 0 10px;
+    width: 20%;
+    height: 70px;
+}
+
+.log{
+    padding-right: 15%;
+    height: 45px;
+    width: 45px;
+}

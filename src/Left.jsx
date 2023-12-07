@@ -18,7 +18,7 @@ const LeftBanner = () => {
 
     return (
         <div className="left-banner">
-            <img src={profilePic} alt="Ananta Nag" className="profile-pic" />
+            <img src={profilePic} alt="Ananta Nag" className="left-pic" />
             <ul className="iconopt">
                 <li onClick={() => navigateTo('/')}>
                     <img src={homeIcon} alt="" className="icon" />
@@ -26,7 +26,7 @@ const LeftBanner = () => {
                 <li onClick={() => navigateTo('/personal')}>
                     <img src={userIcon} alt="" className="icon" />
                 </li>
-                <li onClick={() => navigateTo('/skills')}>
+                <li onClick={() => navigateTo('/skill')}>
                     <img src={skillIcon} alt="" className="icon" />
                 </li>
                 <li onClick={() => navigateTo('/extra-curricular')}>
