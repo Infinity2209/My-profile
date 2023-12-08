@@ -41,7 +41,6 @@ const Main_profile = () => {
                             Navigate("/strength")
                         }
                     }>Strength </li>
-                    <li className="opt">Achivement</li>
                 </ul>
             </div>
             <div>
