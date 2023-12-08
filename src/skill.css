@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+.coding h2 {
+    color: #61dafb;
+}
+
 .sk {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,15 @@
     margin-top: 5%;
 }
 
+.sk3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: disc;
+    margin-top: 5%;
+    margin: 1% 5%;
+}
 
 .sk2 {
     list-style: none;
@@ -29,7 +42,7 @@
 .name {
     flex-direction: row;
     align-items: center;
-    color: #61dafb;
+    color: #619cfb;
     text-align: left;
     margin: 0 8%;
 }
@@ -45,6 +58,14 @@
     margin: 0 10px;
     width: 20%;
     height: 70px;
+    align-items: center;
+    text-align: left;
+}
+
+.sk3 li {
+    display: flex;
+    width: 40%;
+    height: 50px;
     align-items: center;
     text-align: left;
 }

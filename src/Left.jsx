@@ -4,10 +4,11 @@ import { useNavigate } from 'react-router-dom';
 import './left.css';
 import homeIcon from './Utils/home.png';
 import userIcon from './Utils/user.png';
-import skillIcon from './Utils/skill.png';
-import extraIcon from './Utils/extra-curicular.png';
-import socialIcon from './Utils/social.png';
+import skillIcon from './Utils/skill-100.png';
+import extraIcon from './Utils/strength-100.png';
+import qualification from './Utils/qualification.png';
 import profilePic from './Utils/My profile.jpeg';
+import achivement from './Utils/medal-100.png';
 
 const LeftBanner = () => {
     const navigate = useNavigate();
@@ -29,11 +30,14 @@ const LeftBanner = () => {
                 <li onClick={() => navigateTo('/skill')}>
                     <img src={skillIcon} alt="" className="icon" />
                 </li>
+                <li onClick={() => navigateTo('/qualification')}>
+                    <img src={qualification} alt="" className="icon" />
+                </li>
                 <li onClick={() => navigateTo('/strength')}>
                     <img src={extraIcon} alt="" className="icon" />
                 </li>
-                <li onClick={() => navigateTo('/social')}>
-                    <img src={socialIcon} alt="" className="icon" />
+                <li onClick={() => navigateTo('/achivement')}>
+                    <img src={achivement} alt="" className="icon" />
                 </li>
             </ul>
         </div>

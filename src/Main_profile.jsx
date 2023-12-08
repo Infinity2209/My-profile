@@ -33,10 +33,15 @@ const Main_profile = () => {
                     }>Skills And Experinces</li>
                     <li className="opt" onClick={
                         () => {
+                            Navigate("/qualification")
+                        }
+                    }>Qualifications</li>
+                    <li className="opt" onClick={
+                        () => {
                             Navigate("/strength")
                         }
                     }>Strength </li>
-                    <li className="opt">Qualifications</li>
+                    <li className="opt">Achivement</li>
                 </ul>
             </div>
             <div>

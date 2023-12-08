@@ -8,6 +8,7 @@ import JS from "./Utils/javascript.png";
 import c from "./Utils/letter-c.png";
 import python from "./Utils/python.png";
 import java from "./Utils/java.png";
+import figma from "./Utils/figma-96.png";
 
 const Skill = () => {
     return (
@@ -16,7 +17,7 @@ const Skill = () => {
             <div className="ex">
                 <div className="coding">
                     <h2>
-                        Coding Skills :
+                        Technical Skills :
                     </h2>
                     <ul className="sk">
                         <li>
@@ -47,7 +48,10 @@ const Skill = () => {
                             <img src={java} alt="" className="log" />
                             Java
                         </li>
-                        <li></li>
+                        <li>
+                            <img src={figma} alt="" className="log" />
+                            Figma
+                        </li>
                     </ul>
                 </div>
                 <div className="coding">
@@ -85,9 +89,6 @@ const Skill = () => {
                             </p>
                         </li>
                     </ul>
-                </div>
-                <div className="coding">
-
                 </div>
             </div>
         </div>
