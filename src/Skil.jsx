@@ -65,14 +65,13 @@ const Skill = () => {
                                     Intelligent AWS Application
                                 </h3>
                                 <h6>
-                                    7-July-2023 to 7- Nov -2023
+                                    7-July-2023 
                                 </h6>
                             </div>
                             <p className="desc">
-                                I have work as an intern in this company for 4 months as a Full-Stack Developer domain and had mainly work as UI /UX designer and developer and designs many websites.
-                            </p>
+                                I interned at the company for four months, contributing as a Full-Stack Developer with a primary focus on UI/UX design and development. During this time, I designed user interfaces for multiple websites, implemented frontend solutions, and played a key role in building the company's website, among other projects.                            </p>
                         </li>
-                        <li>
+                        {/* <li>
                             <div className="name">
                                 <h3>
                                     Intelligent AWS Application
@@ -87,7 +86,23 @@ const Skill = () => {
                                 Functionality of the websites and on the coding of websites. I use to work
                                 on the developmental part of the websites.
                             </p>
-                        </li>
+                        </li> */}
+                    </ul>
+                </div>
+                <div className="coding">
+                    <h2>
+                        Projects :
+                    </h2>
+                    <ul className="sk4">
+                        <li>Full-Stack Developer Intern for 4 months</li>
+                        <li>Specialized in UI/UX design and development</li>
+                        <li>Designed user interfaces for multiple websites</li>
+                        <li>Implemented front-end solutions for various projects</li>
+                        <li>Completed projects in Data Structures using C</li>
+                        <li>Conducted design and analysis of algorithms in C</li>
+                        <li>Proficient in Python programming</li>
+                        <li>Executed numerous programs in Java</li>
+                        <li>Experienced in web development</li>
                     </ul>
                 </div>
             </div>
