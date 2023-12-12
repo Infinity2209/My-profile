@@ -32,3 +32,22 @@
     height: 50px;
     object-fit: cover;
 }
+
+@media screen and (max-width : 1024px) {
+    .left-pic {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .left-banner {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left-banner {
+        display: none;
+    }
+}

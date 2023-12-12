@@ -1,7 +1,7 @@
+/* Personal.css */
 .left-container {
     display: flex;
     width: 100%;
-
 }
 
 .sm-profile {
@@ -19,7 +19,7 @@
     flex-direction: column;
 }
 
-.form{
+.form {
     padding-top: 3%;
 }
 
@@ -31,7 +31,7 @@
 
 .title {
     color: #61dafb;
-    width: 30%;
+    width: 45%;
     text-align: left;
     margin-left: 35%;
 }
@@ -39,4 +39,32 @@
 .para {
     width: 100%;
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .left-container {
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 0;
+    }
+
+    .title {
+        width: 100%;
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width : 436px) {
+    .title {
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width : 325px) {
+    .title {
+        margin-left: 2rem;
+    }
+
 }

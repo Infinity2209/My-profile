@@ -23,6 +23,7 @@
     align-items: center;
     list-style: none;
     margin-top: 5%;
+
 }
 
 .sk3 {
@@ -86,4 +87,47 @@
     padding-right: 15%;
     height: 45px;
     width: 45px;
+}
+
+@media screen and (max-width : 426px) {
+    .sk {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .sk4 {
+        font-size: 16px;
+    }
+
+    .log {
+        height: 35px;
+        width: 35px;
+    }
+    .sk3 li {
+        padding: 0.5%;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .sk4 {
+        font-size: 14px;
+    }
+
+    .sk {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
+    .sk3 li {
+        padding: 1%;
+        width: 100%;
+        font-size: 16px;
+    }
 }
