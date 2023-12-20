@@ -16,6 +16,10 @@
     color: #61dafb;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .sk {
     display: flex;
     flex-direction: column;
@@ -56,11 +60,11 @@
     align-items: center;
     color: #619cfb;
     text-align: left;
-    margin: 0 8%;
+    margin-left: 13%;
 }
 
 .desc {
-    margin: 0 8%;
+    margin-left: 13%;
     text-align: left;
     font-size: 20px;
     line-height: 40px;
@@ -70,30 +74,34 @@
     display: flex;
     margin: 0 10px;
     width: 20%;
-    height: 70px;
+    height: 80px;
     align-items: center;
     text-align: left;
 }
 
 .sk3 li {
     display: flex;
-    width: 40%;
+    width: 60%;
     height: 50px;
     align-items: center;
     text-align: left;
 }
 
+.name1 {
+    margin: 0 8%;
+
+}
+
 .log {
-    padding-right: 15%;
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
 }
 
 @media screen and (max-width : 426px) {
     .sk {
         padding: 0;
         margin: 0;
-        width: 90%;
+        width: 100%;
     }
 
     .desc {
@@ -105,13 +113,17 @@
     }
 
     .log {
-        height: 35px;
-        width: 35px;
+        height: 50px;
+        width: 50px;
     }
+
     .sk3 li {
         padding: 0.5%;
         width: 100%;
         font-size: 16px;
+    }
+    h2{
+        font-size: 30px;
     }
 }
 
@@ -123,8 +135,9 @@
     .sk {
         padding: 0;
         margin: 0;
-        width: 90%;
+        width: 100%;
     }
+
     .sk3 li {
         padding: 1%;
         width: 100%;

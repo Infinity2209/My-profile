@@ -1,30 +1,38 @@
 /* leftBanner.css */
 .left-banner {
     background-color: #61dafb;
-    padding-top: 50px;
+    padding-top: 70px;
     box-sizing: border-box;
     text-align: center;
     position: fixed;
-    height: 100%;
-    width: 8%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.relat {
+    position: fixed;
+    top: 100px;
+    /* Adjust this value to position it below the navbar */
+    z-index: 1;
 }
 
 .left-pic {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    margin-left: 10%;
 }
 
 .iconopt {
     list-style: none;
-    padding: 0;
 }
 
 .iconopt li {
-    text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 20%;
 }
 
 .icon {
@@ -33,21 +41,17 @@
     object-fit: cover;
 }
 
+@media (max-width: 1235px) {
+    .left-pic {
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
 @media screen and (max-width : 1024px) {
     .left-pic {
         width: 70px;
         height: 70px;
-    }
-}
-
-@media screen and (max-width: 786px) {
-    .left-banner {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .left-banner {
-        display: none;
     }
 }

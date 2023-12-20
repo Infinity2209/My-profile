@@ -4,14 +4,14 @@ import "./skill.css";
 
 const Qualification = () => {
     return (
-        <div className="skill-container">
+        <div className="skill-container h-screen">
             <Left />
             <div className="ex">
-                <div className="coding">
+                <div className="coding pt-[5%]">
                     <h2>
                         Qualifications :
                     </h2>
-                    <ul>
+                    <ul className="pt-[3%]">
                         <li>
                             <div className="name">
                                 <h3>

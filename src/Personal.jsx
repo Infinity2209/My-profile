@@ -7,11 +7,11 @@ const Personal = () => {
     return (
         <div className="left-container">
             <Left />
-            <form className="box">
-                <div className="prop">
+            <form className="box ">
+                <div className="prop p-10">
                     <img src={profile} alt="Ananta Nag" className="sm-profile" />
                 </div>
-                <div className="form">
+                <div className="form pt-10">
                     <span className="line">
                         <p className="title">Name  : </p>
                         <p className="para">Ananta Nag</p>

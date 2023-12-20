@@ -14,7 +14,7 @@ const Skill = () => {
     return (
         <div className="skill-container">
             <Left />
-            <div className="ex">
+            <div className="ex pt-[2%]">
                 <div className="coding">
                     <h2>
                         Technical Skills :
@@ -22,35 +22,35 @@ const Skill = () => {
                     <ul className="sk">
                         <li>
                             <img src={react} alt="" className="log" />
-                            React Js
+                            <p className="name1"> React Js</p>
                         </li>
                         <li>
                             <img src={html} alt="" className="log" />
-                            HTML
+                            <p className="name1">HTML</p>
                         </li>
                         <li>
                             <img src={CSS} alt="" className="log" />
-                            CSS
+                            <p className="name1"> CSS</p>
                         </li>
                         <li>
                             <img src={JS} alt="" className="log" />
-                            JavaScript
+                            <p className="name1">JavaScript</p>
                         </li>
                         <li>
                             <img src={c} alt="" className="log" />
-                            Programming C
+                            <p className="name1">Programming C</p>
                         </li>
                         <li>
                             <img src={python} alt="" className="log" />
-                            Python
+                            <p className="name1"> Python</p>
                         </li>
                         <li>
                             <img src={java} alt="" className="log" />
-                            Java
+                            <p className="name1"> Java</p>
                         </li>
                         <li>
                             <img src={figma} alt="" className="log" />
-                            Figma
+                            <p className="name1"> Figma</p>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +65,7 @@ const Skill = () => {
                                     Intelligent AWS Application
                                 </h3>
                                 <h6>
-                                    7-July-2023 
+                                    7-July-2023
                                 </h6>
                             </div>
                             <p className="desc">
