@@ -14,7 +14,7 @@ const Skill = () => {
     return (
         <div className="skill-container">
             <Left />
-            <div className="ex pt-[2%]">
+            <div className="ex pt-[2%] pb-[2%]">
                 <div className="coding">
                     <h2>
                         Technical Skills :
@@ -65,11 +65,13 @@ const Skill = () => {
                                     Intelligent AWS Application
                                 </h3>
                                 <h6>
-                                    7-July-2023
+                                    7-July-2023 to 7-January-2024
                                 </h6>
                             </div>
                             <p className="desc">
-                                I interned at the company for four months, contributing as a Full-Stack Developer with a primary focus on UI/UX design and development. During this time, I designed user interfaces for multiple websites, implemented frontend solutions, and played a key role in building the company's website, among other projects.                            </p>
+                                I interned at the company for four months, contributing as a Full-Stack Developer with a primary focus on UI/UX design and development. During this time, I designed user interfaces for multiple websites, implemented frontend solutions, and played a key role in building the company's website, among other projects. <br />
+                                I have work on the code implementation, Front-end or UI of the software, Functionality of the websites and on the coding of websites. I use to work on the developmental part of the websites.
+                            </p>
                         </li>
                         {/* <li>
                             <div className="name">
@@ -104,6 +106,7 @@ const Skill = () => {
                         <li>Executed numerous programs in Java</li>
                         <li>Experienced in web development</li>
                     </ul>
+                    <p className="text-[#61dafb] text-[1rem]">*** Visit my github page for the Projects ***</p>
                 </div>
             </div>
         </div>
