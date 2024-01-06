@@ -4,7 +4,7 @@ import "./skill.css";
 
 const Strength = () => {
     return (
-        <div className="skill-container h-screen">
+        <div className="skill-container pb-[2%]">
             <Left />
             <div className="ex">
                 <div className="coding">
